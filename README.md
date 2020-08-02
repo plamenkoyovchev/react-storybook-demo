@@ -69,3 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Installed storybook via command
 ### `npx -p @storybook/cli sb init`
+
+### How to create stories
+## We need 3 things: Component, Styles and Stories (Button.jsx, Button.css, Button.stories.js)
