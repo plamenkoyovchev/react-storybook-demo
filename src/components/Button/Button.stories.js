@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 export default {
-    title: 'Button', // mandatory and should be unique inside the entire storybook
+    title: 'Form/Button', // mandatory and should be unique inside the entire storybook
     component: Button
 };
 
