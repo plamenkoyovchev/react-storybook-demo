@@ -1,9 +1,11 @@
 import React from 'react';
 import Button from './Button';
+import Center from '../Center/Center';
 
 export default {
     title: 'Form/Button', // mandatory and should be unique inside the entire storybook
-    component: Button
+    component: Button,
+    decorators: [story => <Center>{story()}</Center>]
 };
 
 // Every named export represents a story
